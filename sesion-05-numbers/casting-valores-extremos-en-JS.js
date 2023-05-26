@@ -14,7 +14,7 @@ console.log(str);
 console.log(str.valueOf());
 
 // NaN (Not a Number) - Infinity
-let n = Number('adios');
+let n = Number("adios");
 console.log(n);
 console.log(isNaN(n));
 
@@ -26,7 +26,7 @@ let divisor_2 = null;
 console.log(numerador / divisor_2);
 
 // Cómo convertir los string a valores numéricos con Number, parseInt y parseFloat
-let numero = '5.89';
+let numero = "5.89";
 let num2 = 17.2;
 
 console.log(typeof numero);
@@ -34,15 +34,15 @@ console.log(numero + num2); // Error de concepto
 
 console.log(Number(numero) + num2);
 
-console.log(parseInt(numero))
-console.log(parseFloat(numero))
+console.log(parseInt(numero));
+console.log(parseFloat(numero));
 
 let num3 = 4;
-console.log(parseInt(num3))
-console.log(parseFloat(num3))
+console.log(parseInt(num3));
+console.log(parseFloat(num3));
 
 // Números hexadecimales (base 16)
-let numHex = '0x3a5b7';
+let numHex = "0x3a5b7";
 console.log(parseInt(numHex, 16));
 
 // Obtener los valores máximo y mínimo en Javascript
